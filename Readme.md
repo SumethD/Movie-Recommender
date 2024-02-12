@@ -16,6 +16,6 @@ This is a Movie Recommender System built using Streamlit, a Python library for c
 - **Requests:** The `requests` library is used to make HTTP requests to retrieve movie data from an external API.
 - **Pickle:** The `pickle` module is used to load preprocessed movie data and similarity matrices from pickle files.
 
-## Warning: Cannot clone and run it becuz the pickle file for teh model is too large . 
+## Warning: Cannot clone and run it becuz the pickle file for the model is too large . 
 
 
