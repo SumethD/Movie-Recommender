@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: package for movie recommendations
+Author: SUMETH_DL
+Author-email: reigekrypt@gmail.com
+Requires-Python: >3.11.5
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+
+Movies Recommender System
