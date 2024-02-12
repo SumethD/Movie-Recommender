@@ -23,5 +23,5 @@ This is a Movie Recommender System built using Streamlit, a Python library for c
 2. Empty the newfiles 
 3. Create a python conda env .
 4. Install the dependencies `pip install -r requirements.txt` + `scikit-learn` + `nltk` + `matplotlib` + `pandas`
-4. run the `improvedModel.ipynb` file too get the pickle files (the movies and the model)
+4. run the `improvedModel.ipynb` file to get the pickle files (the movies and the model)
 6. Run `streamlit run app.py`
