@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+import os
 import requests
 
 st.set_page_config(page_title="Movie Recommender System", page_icon="🎬", layout="wide", initial_sidebar_state="collapsed",)
@@ -19,7 +20,7 @@ movies_list =movies['title'].values
 movie_choice= st.selectbox('Search Movie For Recommendations', movies_list ) 
 
 def fetchPoster(movieID):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=7804b1bdc89bc7778b2d68450665664c".format(movieID)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key={}".format(movieID, os.environ["TMDB_API_KEY"])
     try:
         data = requests.get(url)
         data.raise_for_status()  # Raise an exception for HTTP errors
